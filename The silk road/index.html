@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<title></title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			html,
+			body {
+				width: 100%;
+				height: 100%;
+			}
+			
+			.swiper-container {
+				width: 100%;
+				height: 100%;
+			}
+			
+			.swiper-wrapper {
+				width: 100%;
+				height: 100%;
+			}
+			
+			#p1,
+			#p2,
+			#p3,
+			#p4,
+			#p5,
+			#p6,
+			#p7,
+			#p8,
+			#p9{
+				overflow: hidden;
+			}
+			
+			#p1 {
+				width: 100%;
+				height: 100%;
+				background: url(img/71.png) no-repeat;
+				background-size: 100% 100%;
+				position: relative;
+				-webkit-animation: shouye 1.5s ease-out;
+			}
+			
+			@-webkit-keyframes shouye {
+				0% {
+					opacity: 0.1;
+				}
+				100% {
+					opacity: 1;
+				}
+			}
+			
+			#p1 img {
+				position: absolute;
+				z-index: 2;
+			}
+			
+			#p1 img:nth-child(1) {
+				left: 0%;
+				top: 11%;
+				width: 55%;
+				-webkit-animation: shouye_img1 2s ease-in;
+			}
+			
+			@-webkit-keyframes shouye_img1 {
+				0% {
+					transform: translateX(-80%);
+				}
+				50% {
+					transform: translateX(-80%);
+				}
+				100% {
+					transform: translateX(0%);
+				}
+			}
+			
+			#p1 img:nth-child(2) {
+				right: -4%;
+				top: 40.4%;
+				width: 58%;
+				-webkit-animation: shouye_img2 2s ease-in;
+			}
+			
+			@-webkit-keyframes shouye_img2 {
+				0% {
+					transform: translateX(80%);
+				}
+				50% {
+					transform: translateX(80%);
+				}
+				100% {
+					transform: translateX(0%);
+				}
+			}
+			
+			#p1 img:nth-child(3) {
+				left: 32%;
+				top: 28.8%;
+				width: 32%;
+			}
+			
+
+			.p1_shandow {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				background: #5da8c1;
+				-webkit-animation: shandow 3s;
+				opacity: 0;
+			}
+			
+			@keyframes shandow {
+				0% {
+					opacity: 1;
+				}
+				90% {
+					opacity: 1;
+				}
+				100% {
+					opacity: 0;
+				}
+			}
+			
+			#p2 {
+				width: 100%;
+				height: 100%;
+				position: relative;
+				background: url(img/72.png) no-repeat;
+				background-size: 100% 100%;
+			}
+			#p2 div{
+				width: 13px;
+				height: 13px;
+				position: absolute;
+				background: white;
+				border-radius: 50%;
+				box-shadow: 0 0 10px white;
+				opacity: 0;
+			}
+	
+			.p2-div1 {
+				left: 35.94%;
+				top: 20.67%;
+			}
+			
+			.p2-div2 {
+				left: 35.94%;
+				top: 83.85%;	
+			}
+			
+			.p2-div3 {	
+				left: 52.19%;
+				top: 83.85%;
+			}
+			
+			.p2-div4 {
+				left: 61.87%;
+				top: 15.86%;
+			}
+			
+			.p2-div5 {
+				left: 61.87%;
+				top: 68.84%;
+				
+			}
+			
+			.p2-div6 {
+				left: 98.984%;
+				top: 79.42%;
+
+			}
+			
+			.p2-div7 {
+				left: 61.87%;
+				top: 79.42%;
+			}
+			
+			.p2-div8 {		
+				left: 61.87%;
+				top: 74.32%;
+			}
+			
+			.p2-div0 {
+				left: -6.5px;
+				top: 12.11%;
+			}
+			
+			.p2-div9 {
+				left: 52.19%;
+				top: 99.375%;
+			}
+			
+			.p2-div10 {
+				left: 99.984%;
+				top: 77%;
+			}
+			
+			#p3 {
+				width: 100%;
+				height: 100%;
+				position: relative;
+				background: url(img/36.png) no-repeat;
+				background-size: 100% 100%;
+			}
+			
+			.p3_div1 {
+				width: 13px;
+				height: 13px;
+				position: absolute;
+				top: -6.5px;
+				left: 52.19%;
+				border-radius: 50%;
+			}
+			
+			.p3_div2 {
+				width: 13px;
+				height: 13px;
+				background: white;
+				position: absolute;
+				top: 12.23%;
+				left: 52.19%;
+				border-radius: 50%;
+				box-shadow: 0 0 10px white;
+				opacity: 0;
+			}
+			
+			.p3_img1 {
+				position: absolute;
+				top: 16.923%;
+				left: 7.8%;
+				width: 84.375%;
+			}
+			
+			#p4 {
+				width: 100%;
+				height: 100%;
+				position: relative;
+				background: url(img/74.png) no-repeat;
+				background-size: 100% 100%;
+			}
+			
+			
+			#p4 div {
+				position: absolute;
+				width: 13px;
+				height: 13px;
+				border-radius: 50%;
+				background: white;
+				opacity: 0;
+				box-shadow: 0 0 10px white;
+			}
+			
+			.p4_div1 {
+				left: -6.5px;
+				top: 79.28%;
+			}
+			
+			.p4_div2 {
+				left: 35.937%;
+				top: 90.96%;
+			}
+			
+			.p4_div3 {
+				left: 35.937%;
+				top: 87.3%;
+			}
+			
+			.p4_div4 {
+				left: 50.78%;
+				top: 87.3%;
+			}
+			
+			.p4_div5 {
+				left: 50.78%;
+				top: 99.375%;
+			}
+			
+			.p4_div6 {
+				left: 50.78%;
+				top: 79.423%;
+			}
+			
+			.p4_div7 {
+				left: 61.875%;
+				top: 79.423%;
+			}
+			
+			.p4_div8 {
+				left: 61.875%;
+				top: 74.327%;
+			}
+			
+			.p4_div9 {
+				left: 98.984%;
+				top: 25.144%;
+			}
+			
+			.p4_div10 {
+				left: 61.875%;
+				top: 15.865%;
+			}
+			
+			.p4_div11 {
+				left: 61.875%;
+				top: 68.846%;
+			}
+			
+			#p5 {
+				width: 100%;
+				height: 100%;
+				position: relative;
+				background: url(img/36.png) no-repeat;
+				background-size: 100% 100%;
+			}
+			
+			.p5_div1 {
+				width: 13px;
+				height: 13px;
+				position: absolute;
+				top: -6.5px;
+				left: 52.19%;
+				border-radius: 50%;
+			}
+			
+			.p5_div2 {
+				width: 13px;
+				height: 13px;
+				background: white;
+				position: absolute;
+				top: 12.23%;
+				left: 52.19%;
+				border-radius: 50%;
+				box-shadow: 0 0 10px white;
+				opacity: 0;
+			}
+			
+			.p5_img1 {
+				position: absolute;
+				top: 16.923%;
+				left: 7.8%;
+				width: 84.375%;
+			}
+			
+			#p6 {
+				width: 100%;
+				height: 100%;
+				position: relative;
+				background: url(img/76.png) no-repeat;
+				background-size: 100% 100%;
+			}
+			
+			
+			#p6 div {
+				position: absolute;
+				width: 13px;
+				height: 13px;
+				border-radius: 50%;
+				background: white;
+				opacity: 0;
+				box-shadow: 0 0 10px white;
+			}
+			
+			.p6_div1 {
+				left: -6.5px;
+				top: 20.673%;
+			}
+			
+			.p6_div2 {
+				left: 35.937%;
+				top: 31.923%;
+			}
+			
+			.p6_div3 {
+				left: 35.937%;
+				top: 72.596%;
+			}
+			
+			.p6_div4 {
+				left: 29.531%;
+				top: 99.375%;
+			}
+			
+			.p6_div5 {
+				left: 29.531%;
+				top: 79.615%;
+			}
+			
+			.p6_div6 {
+				left: 61.875%;
+				top: 79.615%;
+			}
+			
+			.p6_div7 {
+				left: 61.875%;
+				top: 74.327%;
+			}
+			
+			.p6_div8 {
+				left: 98.984%;
+				top: 25.336%;
+			}
+			
+			.p6_div9 {
+				left: 67.031%;
+				top: 17.403%;
+			}
+			
+			.p6_div10 {
+				left: 67.031%;
+				top: 65.096%;
+			}
+			
+			.p6_div11 {
+				left: 61.875%;
+				top: 16.057%;
+			}
+			
+			.p6_div12 {
+				left: 61.875%;
+				top: 68.461%;
+			}
+			
+			#p7 {
+				width: 100%;
+				height: 100%;
+				position: relative;
+				background: url(img/36.png) no-repeat;
+				background-size: 100% 100%;
+				perspective-origin: 50% 50%;
+				-webkit-perspective: 1000px;
+			}
+			
+			.p7_div1 {
+				-webkit-transform-style: preserve-3d;
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			
+			.p7_images {
+				width: 80%;
+				position: absolute;
+				top: 15%;
+				left: 10%;
+				transform-origin: 100% 100%;
+			}
+			
+			.p7_div2{
+				width: 1px;
+				height: 50%;
+				position: absolute;
+				left: 20px;
+				bottom: 0;
+				background: white;
+			}
+			.p7_img1{
+				position: absolute;
+				left: 9px;
+				bottom: 50%;
+				height: 30px;
+			}
+			
+			@-webkit-keyframes p7_images_move1 {
+				0% {
+					transform: translate3d(0, 0, 0) rotate(-10deg);
+				}
+				100% {
+					transform: translate3d(-100vw, -10vw, 0) rotate(-10deg);
+				}
+			}
+			
+			@-webkit-keyframes p7_images_move2 {
+				0% {
+					transform: translate3d(0, 0, 0) rotate(-10deg);
+				}
+				100% {
+					transform: translate3d(0 0 0) rotate(0deg);
+				}
+			}
+			
+			@-webkit-keyframes p7_images_move3 {
+				0% {
+					transform: translate3d(-100vw, 0, 0);
+				}
+				100% {
+					transform: translate3d(0, 0, 0);
+				}
+			}
+			
+			@-webkit-keyframes p7_images_move {
+				0% {
+					transform: rotate(-10deg);
+				}
+				100% {
+					transform: rotate(0deg);
+				}
+			}
+			
+			#p8 {
+				width: 100%;
+				height: 100%;
+				position: relative;
+				background: url(img/60.png) no-repeat;
+				background-size: 100% 100%;
+			}
+			
+			#p8 div {
+				position: absolute;
+				width: 13px;
+				height: 13px;
+				background: white;
+				opacity: 0;
+				border-radius: 50%;
+				box-shadow: 0 0 10px white;
+			}
+			
+			.p8_div1 {
+				left: -6.5px;
+				top: 11.778%;
+			}
+			
+			.p8_div2 {
+				left: 36.25%;
+				top: 23.461%;
+			}
+			
+			.p8_div3 {
+				left: 36.25%;
+				top: 72.5%;
+			}
+			
+			.p8_div4 {
+				left: 36.25%;
+				top: 99.375%;
+			}
+			
+			.p8_div5 {
+				left: 36.25%;
+				top: 79.807%;
+			}
+			
+			.p8_div6 {
+				left: 61.875%;
+				top: 79.807%;
+			}
+			
+			.p8_div7 {
+				left: 61.875%;
+				top: 76.63%;
+			}
+			
+			.p8_div8 {
+				left: 98.984%;
+				top: 83.7%;
+			}
+			
+			.p8_div9 {
+				left: 98.984%;
+				top: 77.836%;
+			}
+			
+			.p8_div10 {
+				left: 61.875%;
+				top: 68.46%;
+			}
+			
+			.p8_div11 {
+				left: 61.875%;
+				top: 32.4%;
+			}
+			
+			#p9 {
+				width: 100%;
+				height: 100%;
+				background: url(img/61.png) no-repeat;
+				background-size: 100% 100%;
+				position: relative;
+			}
+			
+			#p9 video {
+				position: absolute;
+				left: 10%;
+				top: 20%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="box" class="swiper-container">
+			<div id="wrap" class="swiper-wrapper">
+
+				<div id=p1 class="swiper-slide">
+					<img src="img/p1_cloud2.png" alt="" />
+					<img src="img/p1_cloud1.png" alt="" />
+					<img src="img/20.png" alt="" />
+					<div class="p1_shandow"></div>
+				</div>
+
+				<div id="p2" class="swiper-slide">
+					<div class="p2-div0"></div>
+					<div class="p2-div1"></div>
+					<div class="p2-div2"></div>
+					<div class="p2-div3"></div>
+					<div class="p2-div4"></div>
+					<div class="p2-div5"></div>
+					<div class="p2-div6"></div>
+					<div class="p2-div7"></div>
+					<div class="p2-div8"></div>
+					<div class="p2-div9"></div>
+					<div class="p2-div10"></div>
+				</div>
+
+				<div id="p3" class="swiper-slide">
+					<div class="p3_div1"></div>
+					<div class="p3_div2"></div>
+					<img class="p3_img1" src="img/1.jpg" alt="" />
+				</div>
+				<div id="p4" class="swiper-slide">
+					<div class="p4_div1"></div>
+					<div class="p4_div2"></div>
+					<div class="p4_div3"></div>
+					<div class="p4_div4"></div>
+					<div class="p4_div5"></div>
+					<div class="p4_div6"></div>
+					<div class="p4_div7"></div>
+					<div class="p4_div8"></div>
+					<div class="p4_div9"></div>
+					<div class="p4_div10"></div>
+					<div class="p4_div11"></div>
+				</div>
+				<div id="p5" class="swiper-slide">
+					<div class="p5_div1"></div>
+					<div class="p5_div2"></div>
+					<img class="p5_img1" src="img/4.jpg" alt="" />
+				</div>
+				<div id="p6" class="swiper-slide">
+					<div class="p6_div1"></div>
+					<div class="p6_div2"></div>
+					<div class="p6_div3"></div>
+					<div class="p6_div4"></div>
+					<div class="p6_div5"></div>
+					<div class="p6_div6"></div>
+					<div class="p6_div7"></div>
+					<div class="p6_div8"></div>
+					<div class="p6_div9"></div>
+					<div class="p6_div10"></div>
+					<div class="p6_div11"></div>
+					<div class="p6_div12"></div>
+				</div>
+				<div id="p7" class="swiper-slide">
+					<div class="p7_div1"></div>
+					<div class="p7_div2"></div>
+					<img class="p7_img1" src="img/52.png"/>
+				</div>
+
+				<div id="p8" class="swiper-slide">
+					<div class="p8_div1"></div>
+					<div class="p8_div2"></div>
+					<div class="p8_div3"></div>
+					<div class="p8_div4"></div>
+					<div class="p8_div5"></div>
+					<div class="p8_div6"></div>
+					<div class="p8_div7"></div>
+					<div class="p8_div8"></div>
+					<div class="p8_div9"></div>
+					<div class="p8_div10"></div>
+					<div class="p8_div11"></div>
+				</div>
+
+				<div id="p9" class="swiper-slide">
+					<video src="img/1.mp4" width="80%" height="" controls="controls"></video>
+				</div>
+			</div>
+		</div>
+
+	</body>
+	<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/touch.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/tween.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+				var mySwiper = new Swiper('.swiper-container', {
+					direction: 'vertical',
+					effect: 'cube',
+					cube: {
+						slideShadows: false,
+						shadow: false
+					},
+					onSlideChangeStart: function(swiper) {
+						if(swiper.activeIndex == 1) {
+							fn2();
+						}
+						if(swiper.activeIndex == 2) {
+							fn3();
+						}
+						if(swiper.activeIndex == 3) {
+							fn4();
+						}
+						if(swiper.activeIndex == 4) {
+							fn5();
+						}
+						if(swiper.activeIndex == 5) {
+							fn6();
+						}
+						if(swiper.activeIndex == 6) {
+							fn7();
+						}
+						if(swiper.activeIndex == 7) {
+							fn8();
+						}
+		
+					}
+		
+				});
+		var swiper = document.getElementById('wrap');
+		var p1_shandow = document.querySelector('.p1_shandow');
+		var p2_div0 = document.querySelector('.p2-div0');
+		var p2_div1 = document.querySelector('.p2-div1');
+		var p2_div2 = document.querySelector('.p2-div2');
+		var p2_div3 = document.querySelector('.p2-div3');
+		var p2_div4 = document.querySelector('.p2-div4');
+		var p2_div5 = document.querySelector('.p2-div5');
+		var p2_div6 = document.querySelector('.p2-div6');
+		var p2_div7 = document.querySelector('.p2-div7');
+		var p2_div8 = document.querySelector('.p2-div8');
+		var p2_div9 = document.querySelector('.p2-div9');
+		var p2_div10 = document.querySelector('.p2-div10');
+
+		var p2 = document.getElementById('p2');
+		var t;
+		var p3 = document.getElementById('p3');
+		var p3_div1 = document.querySelector('.p3_div1');
+		var p3_div2 = document.querySelector('.p3_div2');
+		var p3_img1 = document.querySelector('.p3_img1');
+		var p3_bol = true;
+		var p4 = document.getElementById('p4');
+		var p4_div1 = document.querySelector('.p4_div1');
+		var p4_div2 = document.querySelector('.p4_div2');
+		var p4_div3 = document.querySelector('.p4_div3');
+		var p4_div4 = document.querySelector('.p4_div4');
+		var p4_div5 = document.querySelector('.p4_div5');
+		var p4_div6 = document.querySelector('.p4_div6');
+		var p4_div7 = document.querySelector('.p4_div7');
+		var p4_div8 = document.querySelector('.p4_div8');
+		var p4_div9 = document.querySelector('.p4_div9');
+		var p4_div10 = document.querySelector('.p4_div10');
+		var p4_div11 = document.querySelector('.p4_div11');
+
+		var p5 = document.getElementById('p5');
+		var p5_div1 = document.querySelector('.p5_div1');
+		var p5_div2 = document.querySelector('.p5_div2');
+		var p5_img1 = document.querySelector('.p5_img1');
+		var p5_bol = true;
+
+		var p6 = document.getElementById('p6');
+		var p6_div1 = document.querySelector('.p6_div1');
+		var p6_div2 = document.querySelector('.p6_div2');
+		var p6_div3 = document.querySelector('.p6_div3');
+		var p6_div4 = document.querySelector('.p6_div4');
+		var p6_div5 = document.querySelector('.p6_div5');
+		var p6_div6 = document.querySelector('.p6_div6');
+		var p6_div7 = document.querySelector('.p6_div7');
+		var p6_div8 = document.querySelector('.p6_div8');
+		var p6_div9 = document.querySelector('.p6_div9');
+		var p6_div10 = document.querySelector('.p6_div10');
+		var p6_div11 = document.querySelector('.p6_div11');
+		var p6_div12 = document.querySelector('.p6_div12');
+
+		var p7 = document.getElementById('p7');
+		var p7_div1 = document.querySelector('.p7_div1');
+		var imgarr = [];
+		var child = p7_div1.children;
+        var speed=50;
+        var p7_img1=document.querySelector('.p7_img1');
+        var p7_div2=document.querySelector('.p7_div2');
+        
+		var p8 = document.getElementById('p8');
+		var p8_div1 = document.querySelector('.p8_div1');
+		var p8_div2 = document.querySelector('.p8_div2');
+		var p8_div3 = document.querySelector('.p8_div3');
+		var p8_div4 = document.querySelector('.p8_div4');
+		var p8_div5 = document.querySelector('.p8_div5');
+		var p8_div6 = document.querySelector('.p8_div6');
+		var p8_div7 = document.querySelector('.p8_div7');
+		var p8_div8 = document.querySelector('.p8_div8');
+		var p8_div9 = document.querySelector('.p8_div9');
+		var p8_div10 = document.querySelector('.p8_div10');
+		var p8_div11 = document.querySelector('.p8_div11');
+		
+
+		p3_img1.onclick = function() {
+			if(p3_bol) {
+				this.style.left = 0;
+				this.style.top = '12%';
+				this.style.width = '100%';
+			} else {
+				this.style.left = '7.8%';
+				this.style.top = '16.923%';
+				this.style.width = '84.375%';
+			}
+			p3_bol = !p3_bol;
+		}
+		p5_img1.onclick = function() {
+			if(p5_bol) {
+				this.style.left = 0;
+				this.style.top = '12%';
+				this.style.width = '100%';
+			} else {
+				this.style.left = '7.8%';
+				this.style.top = '16.923%';
+				this.style.width = '84.375%';
+			}
+			p5_bol = !p5_bol;
+		}
+
+		function fn2() {
+			whiteLine_move(p2_div0, p2_div1, p2);
+			whiteLine_move(p2_div6, p2_div7, p2);
+			whiteLine_move(p2_div10, p2_div5, p2);
+			setTimeout(function() {
+				whiteLine_move(p2_div1, p2_div2, p2);
+				whiteLine_move(p2_div5, p2_div4, p2);
+			}, 500)
+
+			setTimeout(function() {
+				whiteLine_move(p2_div2, p2_div3, p2);
+				whiteLine_move(p2_div7, p2_div8, p2);
+			}, 1000)
+			setTimeout(function() {
+				whiteLine_move(p2_div3, p2_div9, p2);
+			}, 1500)
+
+		}
+
+		function fn3() {
+			whiteLine_move(p3_div1, p3_div2, p3);
+		}
+
+		function fn4() {
+			whiteLine_move(p3_div1, p3_div2, p3);
+
+			whiteLine_move(p4_div1, p4_div2, p4);
+			whiteLine_move(p4_div5, p4_div6, p4);
+			whiteLine_move(p4_div9, p4_div10, p4);
+
+			setTimeout(function() {
+				whiteLine_move(p4_div2, p4_div3, p4);
+				whiteLine_move(p4_div6, p4_div7, p4);
+				whiteLine_move(p4_div10, p4_div11, p4);
+			}, 500)
+
+			setTimeout(function() {
+				whiteLine_move(p4_div3, p4_div4, p4);
+				whiteLine_move(p4_div7, p4_div8, p4);
+			}, 1000)
+		}
+
+		function fn5() {
+			whiteLine_move(p5_div1, p5_div2, p5);
+		}
+
+		function fn6() {
+			whiteLine_move(p6_div1, p6_div2, p6);
+			whiteLine_move(p6_div4, p6_div5, p6);
+			whiteLine_move(p6_div8, p6_div9, p6);
+			setTimeout(function() {
+				whiteLine_move(p6_div2, p6_div3, p6);
+				whiteLine_move(p6_div5, p6_div6, p6);
+				whiteLine_move(p6_div9, p6_div10, p6);
+				whiteLine_move(p6_div8, p6_div11, p6);
+			}, 500)
+			setTimeout(function() {
+				whiteLine_move(p6_div6, p6_div7, p6);
+				whiteLine_move(p6_div11, p6_div12, p6);
+			}, 1000)
+		}
+
+		function fn7() {
+
+			for(var i = 40; i < 50; i++) {
+				var imgobj = new Image();
+				imgobj.onload = function() {
+					imgarr.push(this);
+					if(imgarr.length == 10) {
+						for(var i = 0; i < imgarr.length; i++) {
+							p7_div1.appendChild(imgarr[i]);
+						}
+						p7_images_move();
+					}
+
+				}
+				imgobj.className = "p7_images";
+				imgobj.src = 'img/' + i + '.jpg';
+
+			}
+		}
+
+		function fn8() {
+			whiteLine_move(p8_div1, p8_div2, p8);
+			whiteLine_move(p8_div4, p8_div5, p8);
+			whiteLine_move(p8_div8, p8_div7, p8);
+			whiteLine_move(p8_div9, p8_div10, p8);
+			setTimeout(function() {
+				whiteLine_move(p8_div2, p8_div3, p8);
+				whiteLine_move(p8_div5, p8_div6, p8);
+				whiteLine_move(p8_div7, p8_div6, p8);
+				whiteLine_move(p8_div10, p8_div11, p8);
+			}, 500)
+
+		}
+
+		function genxin_img() {
+			for(var j = 0; j < child.length; j++) {
+				child[j].style.transform = "translate3d(0," + j * (-30) + "px," + j * (-100) + "px)";
+				if(j < 3) {
+					child[j].style.opacity = 1;
+				} else {
+					child[j].style.opacity = 0;
+				}
+			}
+		}
+
+		function p7_images_move() {
+
+			for(var i = 0; i < child.length; i++) {
+				child[i].index = i;
+				genxin_img()
+				touch.on('child[i]', 'touchstart', function(ev) {
+					ev.preventDefault();
+				})
+				touch.on(child[i], 'swipeleft', function(ev) {
+					var _this = this;
+					if(this.nextSibling) {
+						this.style.transform = "translate3d(0,0,0) rotate(0deg)";
+						this.style.webkitAnimation = 'p7_images_move1 0.5s';                      
+						setTimeout(function() {
+							p7_div1.removeChild(_this);
+							speed-=3;
+							p7_div2.style.height=speed+"%";
+							p7_img1.style.bottom=speed+"%";
+							genxin_img();
+						}, 500)
+					} else {
+						this.style.transform = "translate3d(0,0,0) rotate(0deg)";
+						this.style.webkitAnimation = 'p7_images_move2 0.5s';
+						setTimeout(function() {
+							_this.style.webkitAnimation = '';
+						}, 500)
+					}
+				});
+				touch.on(child[i], 'swiperight', function(ev) {
+					var _this = this;
+					if(!this.prevSibling && child.length != 10) {
+						p7_div1.appendChild(imgarr[this.index - 1]);
+						p7_div1.insertBefore(imgarr[this.index - 1], this);
+						speed+=3;
+						p7_div2.style.height=speed+"%";
+						p7_img1.style.bottom=speed+"%";
+						imgarr[this.index - 1].style.webkitAnimation = 'p7_images_move3 0.5s';
+						imgarr[this.index - 1].style.transform = "translate3d(0,0,0) rotate(0deg)";
+						genxin_img();
+					}
+
+				});
+
+			}
+		}
+
+		function whiteLine_move(obj1, obj2, parent) {
+			var x = (obj1.offsetLeft + obj1.offsetWidth / 2 - (obj2.offsetLeft + obj2.offsetWidth / 2));
+			var y = (obj1.offsetTop + obj2.offsetHeight / 2 - (obj2.offsetTop + obj2.offsetHeight / 2));
+			var z = Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
+			if(obj1.offsetLeft > obj2.offsetLeft) {
+				t = 180 - (-180 * Math.asin(y / z) / Math.PI)
+			} else {
+				t = -180 * Math.asin(y / z) / Math.PI
+			}
+			var adiv = document.createElement('div');
+			adiv.style.background = 'white';
+			adiv.style.opacity = 1;
+			adiv.style.position = "absolute";
+			adiv.style.left = (obj1.offsetLeft + obj1.offsetWidth / 2) / parent.offsetWidth * 100 + "%";
+			adiv.style.top = (obj1.offsetTop + obj1.offsetHeight / 2) / parent.offsetHeight * 100 + "%";
+			adiv.style.transform = 'rotate(' + t + 'deg)';
+			adiv.style.transformOrigin = "0 1px";
+			adiv.style.height = "2px";
+			adiv.style.boxShadow = "none";
+
+			var s = 0;
+			var b = adiv.offsetWidth;
+			var end = z;
+			var c = end - b;
+			var d = 20
+			var timer = setInterval(function() {
+				s++;
+				if(s >= 20) {
+					clearInterval(timer);
+					obj2.style.opacity = 1;
+				}
+				adiv.style.width = Tween.Linear(s, b, c, d) / parent.offsetWidth * 100 + '%';
+			}, 25)
+			parent.appendChild(adiv);
+		}
+	</script>
+
+</html>
